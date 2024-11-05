@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./avaliacoes-passadas.css"> <!-- CSS específico para Avaliações Passadas -->
+    <title>Avaliações Passadas - Aldeia LabTec Educacional</title>
+</head>
+
+<body>
+    <header>
+        <h1>Avaliações Passadas</h1>
+        <nav>
+            <a href="../aluno/home-aluno.html">Voltar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="avaliacoes-passadas">
+            <h2>Selecione sua Matéria</h2>
+            <label for="materia-select">Matéria:</label>
+            <select id="materia-select">
+                <option value="">Escolha uma matéria</option>
+                <option value="matematica">Matemática</option>
+                <option value="portugues">Português</option>
+                <option value="ingles">Inglês</option>
+                <option value="historia">História</option>
+                <option value="geografia">Geografia</option>
+                <!-- Adicione outras matérias conforme necessário -->
+            </select>
+
+            <div id="pontuacao" class="pontuacao">
+                <!-- Pontuação será exibida aqui -->
+                <p>Pontuação: <span id="score">--</span></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./avaliacoes-passadas.js"></script>
+</body>
+
+</html>

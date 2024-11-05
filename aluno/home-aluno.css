@@ -1,7 +1,17 @@
+
 header {
-    background-color: #559eeb;
+    font-family: Arial, sans-serif;
+    background-color: #7300ff;
     padding: 20px;
     text-align: center;
+    color: white;
+}
+
+header nav {
+    padding-top: 20px;
+}
+
+header nav a {
     color: white;
 }
 
@@ -12,6 +22,8 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+
 
 main ul li {
     display: flex;

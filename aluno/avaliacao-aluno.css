@@ -7,7 +7,7 @@ body {
 
 
 header {
-    background-color: #007BFF;
+    background-color: #7300ff;
     color: white;
     text-align: center;
     padding: 20px;
@@ -62,7 +62,7 @@ main {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #007BFF;
+    background-color: #7300ff;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -80,5 +80,5 @@ main {
 }
 
 .carousel-btn:hover {
-    background-color: #0056b3;
+    background-color: #9239ff;
 }

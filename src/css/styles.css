@@ -27,7 +27,7 @@ header img {
 }
 
 .btn {
-    background-color: #007bff; /* Cor de fundo do botão */
+    background-color: #7300ff; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
     border: none; /* Sem borda */
     padding: 10px 20px; /* Espaçamento interno */
@@ -38,7 +38,7 @@ header img {
 }
 
 .btn:hover {
-    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+    background-color: #9240f7; /* Cor do botão ao passar o mouse */
 }
 
 

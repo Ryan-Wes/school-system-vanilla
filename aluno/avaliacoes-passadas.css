@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+header {
+    background-color: #7300ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.avaliacoes-passadas h2 {
+    color: #7300ff;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pontuacao {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.pontuacao p {
+    margin: 0;
+}
+
+.pontuacao span {
+    color: #7300ff;
+    font-weight: bold;
+}
