@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/styleslogin.css"> <!-- Incluindo o CSS da página de login -->
+    <title>Aldeia LabTec Educacional - Login</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Aldeia LabTec Educacional</h1>
+        </header>
+
+        <div class="login-type">
+            <h2>Tipo de login</h2>
+            <select id="loginSelect">
+                <option value="aluno">Aluno</option>
+                <option value="professor">Professor</option>
+                <option value="escola">Escola</option>
+            </select>
+        </div>
+
+        <div id="loginForms">
+            <!-- Formulário para login como Aluno -->
+            <form id="loginAluno" class="login-form">
+                <h3>Login Aluno</h3>
+                <input type="text" placeholder="Matrícula do Aluno" required>
+                <input type="password" placeholder="Senha" required>
+            </form>
+
+            <!-- Formulário para login como Professor -->
+            <form id="loginProfessor" class="login-form" style="display: none;">
+                <h3>Login Professor</h3>
+                <input type="text" placeholder="Identificação do Professor" required>
+                <input type="password" placeholder="Senha" required>
+            </form>
+
+            <!-- Formulário para login como Escola -->
+            <form id="loginEscola" class="login-form" style="display: none;">
+                <h3>Login Escola</h3>
+                <input type="text" placeholder="Código da Escola" required>
+                <input type="password" placeholder="Senha" required>
+            </form>
+
+            <button id="entrarBtn" class="entrar-btn">Entrar</button>
+        </div>
+    </main>
+
+    <script src="./src/js/login.js"></script>
+</body>
+
+</html>
