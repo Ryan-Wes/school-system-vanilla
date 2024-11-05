@@ -34,4 +34,3 @@ document.addEventListener('DOMContentLoaded', function () {
     // Inicializa o carrossel com o primeiro cartão ativo
     updateCarousel();
 });
-
