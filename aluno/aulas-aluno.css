@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 80%; /* Ajuste a largura conforme necessário */
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    min-width: 250px; /* Largura mínima dos cartões */
+    transition: transform 0.3s ease;
+}
+
+.carousel-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.carousel-btn:hover {
+    background-color: #0056b3;
+}
