@@ -56,13 +56,16 @@ button {
     background-color: #7300ff; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
     border: none; /* Sem borda */
-    border-radius: 4px; /* Bordas arredondadas */
+    border: 1px solid #7300ff;
     cursor: pointer; /* Mudança do cursor ao passar o mouse */
-    transition: background-color 0.3s; /* Efeito de transição */
+    transition: 0.2s ease-in-out; /* Efeito de transição */
+
 }
 
 button:hover {
-    background-color: #a154ff; /* Cor do botão ao passar o mouse */
+    background-color: #F5F5F5; /* Cor do botão ao passar o mouse */
+    border: 1px solid #7300ff;
+    color: #7300ff;
 }
 
 .login-type {
