@@ -65,7 +65,7 @@ button {
 button:hover {
     background-color: #F5F5F5; /* Cor do botão ao passar o mouse */
     border: 1px solid #7300ff;
-    color: #7300ff;
+    color: #7300f5;
 }
 
 .login-type {
