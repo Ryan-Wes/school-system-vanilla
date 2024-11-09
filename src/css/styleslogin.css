@@ -59,6 +59,8 @@ button {
     border: 1px solid #7300ff;
     cursor: pointer; /* Mudança do cursor ao passar o mouse */
     transition: 0.2s ease-in-out; /* Efeito de transição */
+    margin-top: 20px; /* Espaçamento entre o último formulário e o botão */
+
 
 }
 
@@ -76,6 +78,3 @@ button:hover {
     margin-top: 10px; /* Margem superior para separar os formulários */
 }
 
-button {
-    margin-top: 20px; /* Espaçamento entre o último formulário e o botão */
-}
