@@ -13,6 +13,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center; /* Centralizando o texto do cabeçalho */
+    flex-direction: column;
     height: 100px;
     width: 100vw;
     padding-bottom: 10px;
