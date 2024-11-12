@@ -4,58 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Dealer App</title>
-
-    <link rel="icon" href="./src/images/favicon.png" type="image/x-icon">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Aldeia LabTec Educacional</title>
 </head>
 
 <body>
-    <header>
-        <div class="title">
-            <h1> Car Dealer</h1>
-            <img src="./src/images/logo5.png" alt="">
-        </div>
-    </header>
+    <main>
+        <header>
+            <div class="logo">
+                <h1>Aldeia LabTec Educacional</h1>
+                <img src="./src/image/logo-preto.png" alt="logo">
+            </div>
+            <nav>
+                <button id="entrarBtn" class="btn">Entrar</button>
+            </nav>
+        </header>
 
-    <div class="main-container">
-        <label for="make-select">Selecione a marca do carro:</label>
-        <select id="make-select">
-            <option value="" disabled selected>Selecione a marca do carro</option>
-        </select>
+        <section class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-item active">
+                    <div class="carousel-bg" style="background-image: url(src/image/painel1.jpg);"></div>
+                    <div class="carousel-content">
+                        <h2>Notícias</h2>
+                        <p>Novas turmas para o semestre de 2024 foram abertas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-bg" style="background-image: url(src/image/painel2.jpg);"></div>
+                    <div class="carousel-content">
+                        <h2>Notícias</h2>
+                        <p>As datas das provas finais serão divulgadas em breve.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-bg" style="background-image: url(src/image/painel3.jpg);"></div>
+                    <div class="carousel-content">
+                        <h2>Notícias</h2>
+                        <p>O período de matrícula para o semestre começa em 15 de novembro.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button left" id="prevBtn">&#10094;</button>
+            <button class="carousel-button right" id="nextBtn">&#10095;</button>
+        </section>
+        
+        
+    </main>
 
-        <label for="year-select">Selecione o ano:</label>
-        <select id="year-select">
-            <option value="" disabled selected>Selecione o ano</option>
-        </select>
+    <footer>
+        <p>&copy; 2024 Aldeia LabTec Educacional | <a href="mailto:contato@aldalabtec.edu.br">Entre em Contato</a></p>
+    </footer>
 
-        <button id="next-button" disabled>Próximo</button>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
     <script src="./src/js/index.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('#make-select').select2({
-                placeholder: 'Selecione a marca do carro',
-                allowClear: true
-            });
-            $('#year-select').select2({
-                placeholder: 'Selecione o ano',
-                allowClear: true
-            });
-        });
-    </script>
 </body>
 
 </html>
