@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados dos Veículos</title>
+
+    <link rel="icon" href="./src/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <header class="title-results">
+        <h1>Car Dealer App - Resultados</h1>
+    </header>
+
+    <button id="back-button">Voltar</button>
+
+    <div class="results-container" id="results-container">
+    </div>
+
+    <script src="./src/js/results.js"></script>
+    <script>
+        document.getElementById("back-button").onclick = function() {
+            window.location.href = "index.html";
+        };
+    </script>    
+</body>
+</html>
